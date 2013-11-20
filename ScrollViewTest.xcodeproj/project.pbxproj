@@ -13,46 +13,34 @@
 		FDA9C5F1183C737C0053362A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C5EF183C737C0053362A /* InfoPlist.strings */; };
 		FDA9C5F3183C737C0053362A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C5F2183C737C0053362A /* main.m */; };
 		FDA9C5F7183C737C0053362A /* SVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C5F6183C737C0053362A /* SVAppDelegate.m */; };
-		FDA9C5FA183C737C0053362A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C5F8183C737C0053362A /* Main.storyboard */; };
 		FDA9C5FD183C737C0053362A /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C5FC183C737C0053362A /* SVViewController.m */; };
 		FDA9C5FF183C737C0053362A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C5FE183C737C0053362A /* Images.xcassets */; };
-		FDA9C606183C737D0053362A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA9C605183C737D0053362A /* XCTest.framework */; };
-		FDA9C607183C737D0053362A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA9C5E6183C737C0053362A /* Foundation.framework */; };
-		FDA9C608183C737D0053362A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA9C5EA183C737C0053362A /* UIKit.framework */; };
-		FDA9C610183C737D0053362A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C60E183C737D0053362A /* InfoPlist.strings */; };
-		FDA9C612183C737D0053362A /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C611183C737D0053362A /* ScrollViewTestTests.m */; };
+		FDA9C61C183C74620053362A /* mt-fuji-view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C61B183C74620053362A /* mt-fuji-view.jpg */; };
+		FDA9C61E183C7CEC0053362A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C61D183C7CEC0053362A /* MainWindow.xib */; };
+		FDA9C620183C80B00053362A /* SVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C61F183C80B00053362A /* SVViewController.xib */; };
+		FDA9C622183C83370053362A /* SVAutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA9C621183C83370053362A /* SVAutoViewController.xib */; };
+		FDA9C625183C83560053362A /* SVAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA9C624183C83560053362A /* SVAutoViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FDA9C609183C737D0053362A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDA9C5DB183C737C0053362A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDA9C5E2183C737C0053362A;
-			remoteInfo = ScrollViewTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FDA9C5E3183C737C0053362A /* ScrollViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA9C5E6183C737C0053362A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDA9C5E8183C737C0053362A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FDA9C5EA183C737C0053362A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FDA9C5EE183C737C0053362A /* ScrollViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewTest-Info.plist"; sourceTree = "<group>"; };
 		FDA9C5F0183C737C0053362A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDA9C5F2183C737C0053362A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA9C5F4183C737C0053362A /* ScrollViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViewTest-Prefix.pch"; sourceTree = "<group>"; };
 		FDA9C5F5183C737C0053362A /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
 		FDA9C5F6183C737C0053362A /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
-		FDA9C5F9183C737C0053362A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDA9C5FB183C737C0053362A /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
 		FDA9C5FC183C737C0053362A /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
 		FDA9C5FE183C737C0053362A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FDA9C604183C737D0053362A /* ScrollViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDA9C605183C737D0053362A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FDA9C60D183C737D0053362A /* ScrollViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewTestTests-Info.plist"; sourceTree = "<group>"; };
-		FDA9C60F183C737D0053362A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FDA9C611183C737D0053362A /* ScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestTests.m; sourceTree = "<group>"; };
+		FDA9C61B183C74620053362A /* mt-fuji-view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mt-fuji-view.jpg"; sourceTree = "<group>"; };
+		FDA9C61D183C7CEC0053362A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		FDA9C61F183C80B00053362A /* SVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVViewController.xib; sourceTree = "<group>"; };
+		FDA9C621183C83370053362A /* SVAutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVAutoViewController.xib; sourceTree = "<group>"; };
+		FDA9C623183C83560053362A /* SVAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAutoViewController.h; sourceTree = "<group>"; };
+		FDA9C624183C83560053362A /* SVAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAutoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA9C601183C737D0053362A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDA9C606183C737D0053362A /* XCTest.framework in Frameworks */,
-				FDA9C608183C737D0053362A /* UIKit.framework in Frameworks */,
-				FDA9C607183C737D0053362A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				FDA9C5EC183C737C0053362A /* ScrollViewTest */,
-				FDA9C60B183C737D0053362A /* ScrollViewTestTests */,
 				FDA9C5E5183C737C0053362A /* Frameworks */,
 				FDA9C5E4183C737C0053362A /* Products */,
 			);
@@ -93,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				FDA9C5E3183C737C0053362A /* ScrollViewTest.app */,
-				FDA9C604183C737D0053362A /* ScrollViewTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +80,6 @@
 				FDA9C5E6183C737C0053362A /* Foundation.framework */,
 				FDA9C5E8183C737C0053362A /* CoreGraphics.framework */,
 				FDA9C5EA183C737C0053362A /* UIKit.framework */,
-				FDA9C605183C737D0053362A /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,9 +89,14 @@
 			children = (
 				FDA9C5F5183C737C0053362A /* SVAppDelegate.h */,
 				FDA9C5F6183C737C0053362A /* SVAppDelegate.m */,
-				FDA9C5F8183C737C0053362A /* Main.storyboard */,
 				FDA9C5FB183C737C0053362A /* SVViewController.h */,
 				FDA9C5FC183C737C0053362A /* SVViewController.m */,
+				FDA9C623183C83560053362A /* SVAutoViewController.h */,
+				FDA9C624183C83560053362A /* SVAutoViewController.m */,
+				FDA9C61D183C7CEC0053362A /* MainWindow.xib */,
+				FDA9C61F183C80B00053362A /* SVViewController.xib */,
+				FDA9C621183C83370053362A /* SVAutoViewController.xib */,
+				FDA9C61B183C74620053362A /* mt-fuji-view.jpg */,
 				FDA9C5FE183C737C0053362A /* Images.xcassets */,
 				FDA9C5ED183C737C0053362A /* Supporting Files */,
 			);
@@ -126,28 +106,9 @@
 		FDA9C5ED183C737C0053362A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDA9C5EE183C737C0053362A /* ScrollViewTest-Info.plist */,
 				FDA9C5EF183C737C0053362A /* InfoPlist.strings */,
 				FDA9C5F2183C737C0053362A /* main.m */,
 				FDA9C5F4183C737C0053362A /* ScrollViewTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FDA9C60B183C737D0053362A /* ScrollViewTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				FDA9C611183C737D0053362A /* ScrollViewTestTests.m */,
-				FDA9C60C183C737D0053362A /* Supporting Files */,
-			);
-			path = ScrollViewTestTests;
-			sourceTree = "<group>";
-		};
-		FDA9C60C183C737D0053362A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FDA9C60D183C737D0053362A /* ScrollViewTestTests-Info.plist */,
-				FDA9C60E183C737D0053362A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +133,6 @@
 			productReference = FDA9C5E3183C737C0053362A /* ScrollViewTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FDA9C603183C737D0053362A /* ScrollViewTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDA9C618183C737D0053362A /* Build configuration list for PBXNativeTarget "ScrollViewTestTests" */;
-			buildPhases = (
-				FDA9C600183C737D0053362A /* Sources */,
-				FDA9C601183C737D0053362A /* Frameworks */,
-				FDA9C602183C737D0053362A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDA9C60A183C737D0053362A /* PBXTargetDependency */,
-			);
-			name = ScrollViewTestTests;
-			productName = ScrollViewTestTests;
-			productReference = FDA9C604183C737D0053362A /* ScrollViewTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +142,6 @@
 				CLASSPREFIX = SV;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Seth Kingsley";
-				TargetAttributes = {
-					FDA9C603183C737D0053362A = {
-						TestTargetID = FDA9C5E2183C737C0053362A;
-					};
-				};
 			};
 			buildConfigurationList = FDA9C5DE183C737C0053362A /* Build configuration list for PBXProject "ScrollViewTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				FDA9C5E2183C737C0053362A /* ScrollViewTest */,
-				FDA9C603183C737D0053362A /* ScrollViewTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA9C61E183C7CEC0053362A /* MainWindow.xib in Resources */,
 				FDA9C5FF183C737C0053362A /* Images.xcassets in Resources */,
+				FDA9C620183C80B00053362A /* SVViewController.xib in Resources */,
 				FDA9C5F1183C737C0053362A /* InfoPlist.strings in Resources */,
-				FDA9C5FA183C737C0053362A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDA9C602183C737D0053362A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDA9C610183C737D0053362A /* InfoPlist.strings in Resources */,
+				FDA9C622183C83370053362A /* SVAutoViewController.xib in Resources */,
+				FDA9C61C183C74620053362A /* mt-fuji-view.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,49 +184,18 @@
 			files = (
 				FDA9C5FD183C737C0053362A /* SVViewController.m in Sources */,
 				FDA9C5F3183C737C0053362A /* main.m in Sources */,
+				FDA9C625183C83560053362A /* SVAutoViewController.m in Sources */,
 				FDA9C5F7183C737C0053362A /* SVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA9C600183C737D0053362A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDA9C612183C737D0053362A /* ScrollViewTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FDA9C60A183C737D0053362A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDA9C5E2183C737C0053362A /* ScrollViewTest */;
-			targetProxy = FDA9C609183C737D0053362A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FDA9C5EF183C737C0053362A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FDA9C5F0183C737C0053362A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FDA9C5F8183C737C0053362A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDA9C5F9183C737C0053362A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDA9C60E183C737D0053362A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDA9C60F183C737D0053362A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,48 +301,6 @@
 			};
 			name = Release;
 		};
-		FDA9C619183C737D0053362A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollViewTest.app/ScrollViewTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewTest/ScrollViewTest-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ScrollViewTestTests/ScrollViewTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		FDA9C61A183C737D0053362A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollViewTest.app/ScrollViewTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewTest/ScrollViewTest-Prefix.pch";
-				INFOPLIST_FILE = "ScrollViewTestTests/ScrollViewTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,14 +320,7 @@
 				FDA9C617183C737D0053362A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FDA9C618183C737D0053362A /* Build configuration list for PBXNativeTarget "ScrollViewTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDA9C619183C737D0053362A /* Debug */,
-				FDA9C61A183C737D0053362A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

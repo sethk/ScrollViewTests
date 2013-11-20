@@ -8,22 +8,13 @@
 
 #import "SVViewController.h"
 
-@interface SVViewController ()
-
-@end
-
 @implementation SVViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+	[super viewDidAppear:animated];
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	[(UIScrollView *)[self view] setContentSize:CGSizeMake(1600, 1200)];
 }
 
 @end

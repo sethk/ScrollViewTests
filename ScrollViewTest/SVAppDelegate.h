@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface SVAppDelegate : UIResponder <UIApplicationDelegate>
+{
+	IBOutlet UIWindow *_window;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+- (IBAction)showProgrammaticallyCreated:(id)sender;
+- (IBAction)showLoadedFromXIB:(id)sender;
+- (IBAction)showLoadedFromXIBWithAuto:(id)sender;
 
 @end
